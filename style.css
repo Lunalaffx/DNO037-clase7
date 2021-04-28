@@ -1,16 +1,18 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 :root {
-    --fondo: #eceff1;
-    --figura: #263238;
-    --destacado: #4f5b62;
+    --fondo: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    --figura: #352037;
+    --destacado: #352037;
     --activo: #000a12;
 }
 
 body {
     color: var(--figura);
     background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Rhodium Libre', serif;
     font-size: 100%;
     line-height: 1.6;
     text-align: left;
